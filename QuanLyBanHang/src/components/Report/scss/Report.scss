@@ -1,0 +1,43 @@
+.report-wrap {
+  padding: 20px;
+ 
+  .report-option {
+  }
+  .report-content-wrap {
+      background-color: white; 
+    margin-top: 20px;
+    .report-content-header {
+        background-color: white;
+        padding:20px 20px 20px 20px;
+        border-bottom: 1px solid rgb(196, 128, 128);
+      .header-label {     
+        font-size: 20px;
+        font-weight: 500;
+        padding-bottom: 20px;
+      }
+      .header-input-timer{
+          display: flex;
+          .header-input-timer-1{
+            span{
+                padding-right: 5px;
+            }
+          }
+          .header-input-timer-2{
+
+            span{
+                padding-left: 30px;
+                padding-right: 5px;
+            }
+          }
+      }
+    }
+    .report-content-body {
+      background-color: white;
+      .report-content-body-chart {
+      }
+      .report-content-body-table {
+        // padding-top:20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.selected-report{
+    padding:20px 20px 30px 20px;
+    background-color: white;
+    .selected-report-label{
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        span{
+            font-size: 18px;
+            font-weight: 500;
+            &:last-child{
+                font-size: 14px;
+                font-weight: 450;
+            }
+        }
+       
+    }
+    .selected-report-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .selected-report-time{
+            &:hover{
+                cursor: pointer;
+                background-color: #c7bfbf;
+            }
+           
+            border:1px solid #e5e5e5;
+            border-radius: 20px;
+            padding:20px 60px 20px 60px;
+            display: flex;
+            .selected-report-time-1{
+                margin:auto;
+                display: flex;
+                flex-direction: column;
+                .selected-report-time-1-icon{
+                    padding-bottom: 20px;
+                    margin:auto;
+
+                }
+                .selected-report-time-1-character{
+
+                }
+            }
+
+        }
+        .selected-report-product{
+            &:hover{
+                cursor: pointer;
+                background-color: #f3f3f3;
+            }
+            border:1px solid #e5e5e5;
+            border-radius: 20px;
+            padding:20px 60px 20px 60px;
+            display: flex;
+            .selected-report-product-1{
+                margin:auto;
+                display: flex;
+                flex-direction: column;
+                .selected-report-product-1-icon{
+                    padding-bottom: 20px;
+                    margin:auto;
+                }
+                .selected-report-product-1-character{
+
+                }
+            }
+
+        }
+        .selected-report-order{
+            border:1px solid #e5e5e5;
+            border-radius: 20px;
+            padding:20px 60px 20px 60px;
+            display: flex;
+            &:hover{
+                cursor: pointer;
+                background-color: #f3f3f3;
+            }
+            .selected-report-order-1{
+                margin:auto;
+                display: flex;
+                flex-direction: column;
+                .selected-report-order-1-icon{
+                    padding-bottom: 20px;
+                    margin:auto;
+                }
+                .selected-report-order-1-character{
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.order-detail-label {
+  padding-bottom: 30px;
+  padding-left: 15px;
+
+  span {
+    &:first-child {
+      font-size: 20px;
+      font-weight: 600;
+      margin-right: 5px;
+    }
+  }
+}
+.order-detail-1 {
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  .row {
+      .customer-infor-1{
+          
+          // margin-bottom: 20px;
+      }
+    .order-infor {
+      background-color: white;
+      padding-bottom:20px;
+    }
+
+  }
+}

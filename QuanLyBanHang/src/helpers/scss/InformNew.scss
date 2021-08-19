@@ -1,0 +1,25 @@
+.inform-new{
+    position:absolute;
+    display: flex;
+    top:-50px;
+    color:white;
+    height: 50px;
+    width: 300px;
+    background-color: #2fa84f;
+    right: 500px;
+    text-align: center;
+    p{
+        margin:auto;
+    }
+    animation: moveEffect 0.5s linear alternate forwards;
+}
+@keyframes moveEffect{
+    from{
+      top:-50px;
+    }
+    to{
+        animation-delay: 0.5s;
+        top:10px;
+        
+    }
+}

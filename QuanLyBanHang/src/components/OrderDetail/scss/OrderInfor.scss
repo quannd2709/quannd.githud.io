@@ -1,0 +1,36 @@
+.order-infor-1{
+  padding-bottom: 20px;
+  .label-order-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+
+  }
+  .list-item{
+    .table{
+      thead{
+        tr{
+          .th-3{
+            text-align: right;
+          }
+        }
+      }
+    }
+    .list-item-amount{
+      padding-top:30px;
+      .amount-1{
+        display:flex;
+        justify-content: space-between;
+      }
+      .total-money-1{
+        display:flex;
+        justify-content: space-between;
+        span{
+          font-weight: bold;
+
+        }
+      }
+    }
+  }
+}

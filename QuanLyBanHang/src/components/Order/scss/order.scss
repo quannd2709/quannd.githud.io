@@ -1,0 +1,37 @@
+.list-order {
+  font-size: 15px;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c4cdd5;
+  padding:20px 80px 20px 80px;
+  .order-1{
+    display: flex;
+    justify-content: space-between;
+   .btn-create{
+    
+    button{
+         background-color: #1c8eff;
+         border-radius: 3px;
+         border: none;
+         min-width: 98px;
+         padding:7px;
+         color:white;
+
+        
+    }
+   }
+  }
+  .order-table {
+    .table-striped {
+      .table-row {
+        &:hover {
+          background-color: #c4cdd5;
+        }
+      }
+    }
+  }
+  .CCard{
+    border:none;
+  }
+}

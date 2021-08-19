@@ -1,0 +1,24 @@
+.new-not-order{
+    padding-top:20px;
+    display: flex;
+    width: 100%;
+    .new-not-order-1{
+        padding-top:20px;
+        margin:auto;
+        display: flex;
+        flex-direction: column;
+        .new-not-icon{
+            display: flex;
+            span{
+                margin:auto;
+            }
+
+        }
+        .new-not-content{
+            font-size: 20px;
+            padding-top:20px;
+            padding-bottom: 20px;
+
+        }
+    }
+}

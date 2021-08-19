@@ -1,0 +1,48 @@
+.modal-90w{
+    width: 90%;
+    .add-discount{
+        .discount-select{
+            // padding-top:20px;
+            padding:20px 0 20px 0;
+            display:flex;
+            justify-content: space-between;
+            span{
+                font-weight: 500;
+                font-size:16px;
+                
+            }
+            .btn-select-1{
+                button{
+                    // background-color: red;
+                    // color:white;
+                    border:0.5px solid #0964cf;
+                    height: 30px;
+                    width: 60px;
+                    &:focus{
+                        border:0.5px solid #0964cf;
+                        background-color:#0964cf ;
+                        outline: none;
+                    }
+                }
+               
+            }
+            input{
+                text-align: right;
+                border:none;
+                border-bottom: 0.5px solid  #e5e5e5 ;
+                &:focus{
+                    outline: none;
+                    border:none;
+                    border-bottom: 0.5px solid #0964cf ;
+                }
+                &:hover{
+                    outline: none;
+                    border:none;
+                    border-bottom: 0.5px solid #0964cf ;
+                }
+            }
+        }
+       
+    }    
+}
+

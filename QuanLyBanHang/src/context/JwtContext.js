@@ -1,0 +1,12 @@
+import React from 'react';
+const JwtContext = React.createContext(null);
+JwtContext.displayName = "jwtContext";
+const ProductContext = React.createContext(null);
+ProductContext.displayName = "productContext";
+const SalerContext = React.createContext(null);
+SalerContext.displayName = "salerProduct";
+const LayoutContext = React.createContext(null);
+LayoutContext.displayName = "LayoutContext";
+const OrderContext = React.createContext(null);
+OrderContext.displayName= "OrderContext";
+export {JwtContext, ProductContext, SalerContext,LayoutContext,OrderContext};

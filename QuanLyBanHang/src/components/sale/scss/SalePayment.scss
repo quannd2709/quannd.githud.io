@@ -1,0 +1,187 @@
+.sale-payment{
+    position: relative;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    font-weight: 400;
+    line-height: 1.5;
+    color:rgba(0, 0, 0, 0.87);
+    display: flex;
+    flex-direction: column;
+    .customer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 30px;
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+        border-bottom-color:#e5e5e5;
+        margin-top:15px;
+        .show-customer{
+            position: absolute;
+            right:0;
+            top:0;
+            width: 400px;
+            z-index: 10;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            border-bottom:1px solid #e5e5e5;
+            .show-1{
+                display: flex;
+                span{
+                    display: flex;
+                    i{
+                        margin:auto;
+                    }     
+                   
+                }
+                .show-1-1{
+                    margin-left: 10px;
+                    p{
+                        margin-bottom:5px;
+                        &:first-child{
+                            color:#0964cf;
+                        }
+                    }
+                }
+            }
+            span{
+                display: flex;
+                i{
+                    margin:auto;
+                }
+            }
+        }
+        .customer-infor{
+            background-color: transparent;
+            width: 100%;  
+            i{
+                color:#637381;
+                margin-right: 5px;
+            } 
+          
+            input{
+                border:none;
+                outline:none;
+                width: 80%;
+                &::placeholder{
+                    color:#c1c7cf; 
+                  }
+                  &:hover{
+                    border:none;
+                }
+            }
+        }
+        .search-customer{
+            background-color: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+            position: absolute;
+            width: 400px;
+            max-height: 50%;
+            right:0;
+            top:45px;
+            overflow-y: auto;
+           
+
+        }
+        i{
+            color:#637381;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+        .i-1{
+          &:hover{
+              cursor:default;
+          }      
+        }
+     
+    }
+    .payment-1{
+        border-bottom-style: solid;
+        border-bottom-width: 0.5px;
+        border-bottom-color: #e5e5e5;
+        .p-1-1{
+            display: flex;
+            justify-content: space-between;
+            margin-top:30px;
+            &:last-child{
+                margin-bottom: 30px;
+            }
+            &:first-child{
+                
+            }
+            input{
+                border:none;
+                border-bottom-style: solid;
+                border-bottom-width: 0.5px;
+                border-bottom-color: #e5e5e5;
+                text-align: right;
+                &:hover{
+                    border:none;
+                    border-bottom-style: solid;
+                    border-bottom-width: 0.5px;
+                    border-bottom-color: black  ;
+                    cursor: pointer;
+                    background-color: #e5e5e5;
+
+                }
+                &:focus{
+                    outline: none;
+                    border:none;
+                    border-bottom-style: solid;
+                    border-bottom-width: 0.5px;
+                    border-bottom-color: black;
+                    text-align: right;
+                }
+                
+              
+            }
+        }
+        .payment-1-4{
+            input{
+                &:hover{
+                    background-color: white;
+                    cursor:text;
+                }
+            }
+        }
+    .payment-1-3{
+        font-size: 20px;
+        color:#0964cf;
+        span{
+            &:first-child{
+                color: black;
+                font-weight: 5000;
+            }
+        }
+    }
+    }
+    .payment-2{
+        color:white;
+        font-size: 25px;
+        // position: absolute;
+        background-color: #2FA84F;;
+        bottom: 0;
+        width: 280px;
+        height: 125px;
+        border-style: solid;
+        border-radius: 10px;
+        display: flex;
+        margin:auto;
+        .btn-payment{
+            margin:auto;
+        }
+        &:hover{
+            background-color: #09992d;
+            cursor: pointer;
+        }
+
+    }
+    .modal-90w{
+        width:80% !important; top:20%;
+    }
+}

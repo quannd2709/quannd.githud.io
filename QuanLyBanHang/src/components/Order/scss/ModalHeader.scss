@@ -1,0 +1,152 @@
+.header-order{
+    position: relative;
+    display: flex;
+    .drop-down-1{
+        // margin-left:20px;
+        max-width: 400px;
+        // position: relative;
+        z-index:1;  
+        .btn-change{
+            // position:absolute;
+            padding: 5px;
+            border-style:solid;
+            border-color: #e1e2e2;
+            border-radius: 3px;
+            border-width: 0.5px;
+            width: 100px;
+            button{
+                background-color: transparent;
+                border:none;
+                outline:none;
+            }
+           
+        }
+        
+        .content_dropdown{
+            position:absolute;
+            top:30px;
+            z-index: 100;
+            margin-top: 5px;
+            padding:7px;
+            background-color: white;
+            border-style: solid; 
+            border-color: #e1e2e2;
+            border-width: 1px;
+            min-width: 200px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            position: absolute;
+            .h-1{   
+                padding-bottom: 6px;
+                padding-top:3px;
+                display: flex;
+                flex-direction: row; 
+                justify-content: space-evenly;
+                button{
+                    border-radius: 4px;
+                    padding:5px;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    border-width: 0.5px;
+                    min-width: 158px;
+                    border-color: #c4cdd5;
+                    &:focus{
+                        outline: none;
+                        background-color: #0e8bff;
+                    }
+                }
+            }
+            .h-4{
+                
+                border-radius: 5px;
+                display:flex;
+                align-content: center; 
+                border-style: solid; 
+                border-color: #c4cdd5;
+                border-width: 0.5px;
+                width: 100%;
+                
+                &:focus{
+                    background-color: #0e8bff;
+                }
+                button{
+                   
+                    border:none;
+                    margin:auto;
+                    background-color: transparent;
+                    &:focus{
+                        border:none;
+                        outline: none;
+                        // background-color: red;
+                    }
+                   
+                }
+            }
+    
+            .date-picker{
+                margin-top:5px;
+                display: flex;   
+                align-content: center; 
+                border-width: 0.5px;
+                
+            }
+            .h-5{
+                
+                display: flex;
+                flex-direction: row-reverse;
+                border:none;
+                outline: none;
+                align-items: center;
+                button{
+                    margin-top: 2px;
+                    border-style: solid; 
+                    border-color: #c4cdd5;
+                    border-width: 0.5px;
+                    background-color: #0e8bff;
+                    align-content: center;
+                    max-height: 100%;
+                    border-radius: 4px;
+                    &:focus{
+                        outline: none;
+                        border:none;
+                    }
+                }
+            }
+        }
+    }
+    .input-data-1{
+        margin-left: 20px;
+        border-style: solid;
+        border-color: #c4cdd5;
+        border-width: 1px;
+        border-radius: 4px;
+        display: flex;
+        padding: 4px;
+        &:hover {
+       border-style: solid;
+       border-color: #0088ff;
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          background-color: white;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+          i {
+            color: #95a7b7;
+          }
+        }
+        input {
+          border: none;
+          min-width: 400px;
+          &:focus {
+            border: none;
+            outline: none;
+          }
+        }
+    }
+    
+}

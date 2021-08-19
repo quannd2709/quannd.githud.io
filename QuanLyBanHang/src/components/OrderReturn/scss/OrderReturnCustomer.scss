@@ -1,0 +1,65 @@
+.create-return-order{
+    padding:0 10px 0 10px;
+    .lable{
+        padding:20px 0 40px 0;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .order-return-content{
+       
+        .content-right{
+            padding:0 10px 0 10px;
+            background-color: white;
+            .label-product{
+                padding:10px 0 10px 0;
+
+            }
+            .table-product{
+
+            }
+            .content-end{
+                height: 80px ;
+                display: flex;
+                flex-direction: column;
+        
+                .amount{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        // margin-left: 40px;
+                    }
+
+                }
+                .total-money{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    span{
+                        padding-top:10px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+        .content-left{
+            background-color: white;
+            .information-order{
+                .infor-order-label{
+
+                }
+            }
+
+        }
+    }
+    .btn-end{
+        display: flex;
+        justify-content: flex-end;
+        margin-top:30px;
+        border-top: 0.5px solid #c5c8ca;
+        .btn-1{
+            margin-top:20px;
+
+        }
+    }
+}

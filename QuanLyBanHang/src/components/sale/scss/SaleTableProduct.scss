@@ -1,0 +1,26 @@
+.sale-table-product{
+    background-color: white;
+    font-size: 16px;
+    thead{
+        height: 20px;
+        tr{
+            height: 20px;
+            color:rgba(0, 0, 0, 0.87);
+            th{ 
+                font-weight: 600;
+                text-align: right;
+                border:none;
+            }
+            .th-1{
+                text-align: left;
+               
+            }
+            .th-2{
+                text-align: right;
+            }
+            .th-6{
+                text-align: center;
+            }
+        }
+    }
+    }

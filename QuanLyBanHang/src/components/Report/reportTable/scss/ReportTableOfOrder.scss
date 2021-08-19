@@ -1,0 +1,22 @@
+.report-table-order{
+    .table{
+        thead{
+            tr{
+                th{
+                    text-align: right;
+                    &:first-child{
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        tbody{
+            .table-row-sum{
+                td{
+                    text-align: right;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

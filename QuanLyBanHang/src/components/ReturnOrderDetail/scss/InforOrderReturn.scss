@@ -1,0 +1,30 @@
+.infor-order-return{
+    background-color: white;
+    .infor-order-lable{
+        padding:20px 10px 20px 10px;
+        font-size: 17px;
+        font-weight: 500;
+        border-bottom: 1px solid #e5e5e5 ;
+    }
+    .infor-order-content{
+        padding:20px 10px 20px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       
+        .code-order-return{
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .gived-date{
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .staff-order{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

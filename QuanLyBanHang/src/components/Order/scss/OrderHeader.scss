@@ -1,0 +1,37 @@
+.header-order {
+    margin-bottom: 20px;
+    display: flex;
+    .input-data {
+      border-style: solid;
+      border-color: #c4cdd5;
+      border-width: 1px;
+      border-radius: 4px;
+      display: flex;
+      padding: 4px;
+      &:hover {
+     border-style: solid;
+     border-color: #0088ff;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        background-color: white;
+        &:focus {
+          outline: none;
+          border: none;
+        }
+        i {
+          color: #95a7b7;
+        }
+      }
+      input {
+        border: none;
+        min-width: 400px;
+        &:focus {
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    
+  }

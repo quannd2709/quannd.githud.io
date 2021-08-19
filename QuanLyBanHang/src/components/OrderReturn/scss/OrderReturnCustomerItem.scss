@@ -1,0 +1,29 @@
+.table-row{
+    font-size: 14px;
+   .td-1{
+    height: 20px;
+    
+       display: flex;
+       .input-1{
+           height: 40px;
+           padding-bottom: 100px;
+        input{
+            width: 40px;
+            text-align: right;
+            margin-bottom: 10px;
+            height:30px;
+            padding-bottom: 8px;
+       }
+        span{
+            margin-left:5px;
+           &:first-child{
+            margin-bottom: 2px;
+           }
+          
+          
+        }
+            
+        }
+      
+   }
+}
